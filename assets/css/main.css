@@ -1,0 +1,139 @@
+:root {
+     --blue: #3c6382;
+     --dark-blue: #0a3d62;
+     --primary_text: rgb(71, 66, 66);
+ }
+ 
+ * {
+     font-family: 'Nunito Sans', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     border: none;
+     text-transform: capitalize;
+     transition: all .3s cubic-bezier(0.35, 1.15, 0.7, 1.12);
+ }
+ 
+ ::selection {
+     background: var(--dark-blue);
+     color: #fff;
+ }
+ 
+ html {
+     font-size: 62.5%;
+     overflow-x: hidden;
+ }
+ .btn{
+     cursor: pointer;
+     background-color: #1da1f2;
+     color: #fff;
+     border-radius: 0.3rem;
+     padding: 0.5rem;
+     margin: 0 0.5rem;
+ }
+ .inputDate{
+     border: 0.2rem solid #ccc;
+ }
+ /* -------------------- */
+ .box_profile{
+     background-color: blanchedalmond;
+     display: flex;
+     flex-direction: column;
+     min-height: 230px;
+     margin: 5px 0;
+ }
+ .box_profile--top{
+     font-size: 2rem;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem;
+
+ }
+ .box_profile--content{
+    margin-top: 0.5rem;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .profile_images{
+ }
+ .profile_image{
+     width: 12rem;
+     height: 12rem;
+     border-radius: 100rem;
+     padding: 0;
+     object-fit: cover;
+     display: inline-block;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);;
+ }
+ .profile_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .paddingtopbotton{
+     padding: 0.5rem 0;
+ }
+ /* ----------------- */
+ .box_menu{
+     display: flex;
+     flex-direction: column;
+ }
+ .box_menu--notifi{
+     background-color: aqua;
+     min-height: 110px;
+     margin: 5px 0;
+     text-align: center;
+ }
+ 
+ .box_menu--learn{
+     background-color: antiquewhite;
+     text-align: center;
+     min-height: 11rem;
+     margin: 0.5rem 0 0 0;
+
+
+ }
+ .box_menu--pointList{
+     background-color: azure;
+     min-height: 110px;
+     text-align: center;
+     margin: 0.5rem 0 0 0;
+
+ }
+ /* --------------- */
+ .portlet{
+
+ }
+ .portlet-body{
+
+ }
+ .portlet-body>.caption{
+    font-size: 2rem;
+    color: var(--primary_text);
+    padding: 0.5rem;
+ }
+ .portlet-body>.action{
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+#viewLichTheoTuan{
+    background-color: #ccc;
+}
+#viewLichTheoTuan thead{
+    height: 4rem;
+    background-color: #1da1f2;
+
+}#viewLichTheoTuan .td_main{
+    background-color: beige;
+}
+#viewLichTheoTuan td>b{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
